@@ -1,0 +1,6 @@
+{
+  "name": "OpEx Task Manager",
+  "description": "Collaborative operational task management system with role-based access control, file attachments, threaded comments, notifications, and reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
