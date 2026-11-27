@@ -199,14 +199,8 @@ export const USER_ROLES: UserRole[] = ['Admin', 'Supervisor', 'Member'];
 export const USER_STATUSES: UserStatus[] = ['Active', 'Inactive', 'Suspended'];
 
 export const TASK_CATEGORIES: string[] = [
-  'Store Operations',
-  'Preventive Maintenance',
-  'Compliance & Audit',
-  'Inventory & Stock',
-  'Safety & HSE',
-  'IT & POS Support',
-  'Facility Repair',
-  'Logistics & Fleet',
+  'Warehouse (WMS)',
+  'Trucking (TMS)',
 ];
 
 export const DEPARTMENTS: string[] = [
