@@ -82,7 +82,7 @@ export function ProfilePage() {
                 size="small"
               />
               <TextField
-                label="Assigned Role"
+                label="Role"
                 value={user.role}
                 disabled
                 fullWidth
@@ -102,7 +102,7 @@ export function ProfilePage() {
             <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
               <TextField
                 select
-                label="Department"
+                label="Dision"
                 value={department}
                 onChange={(e) => setDepartment(e.target.value)}
                 fullWidth
@@ -115,7 +115,7 @@ export function ProfilePage() {
                 ))}
               </TextField>
               <TextField
-                label="Job Title"
+                label="Position"
                 value={jobTitle}
                 onChange={(e) => setJobTitle(e.target.value)}
                 fullWidth
@@ -126,7 +126,7 @@ export function ProfilePage() {
             <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
               <TextField
                 select
-                label="Assigned Area"
+                label="Operation Area"
                 value={area}
                 onChange={(e) => setArea(e.target.value)}
                 fullWidth
@@ -140,7 +140,7 @@ export function ProfilePage() {
               </TextField>
               <TextField
                 select
-                label="Assigned Branch"
+                label="Assigned Entity"
                 value={branch}
                 onChange={(e) => setBranch(e.target.value)}
                 fullWidth
@@ -154,7 +154,7 @@ export function ProfilePage() {
               </TextField>
               <TextField
                 select
-                label="Assigned Outlet"
+                label="Assigned Branch"
                 value={outlet}
                 onChange={(e) => setOutlet(e.target.value)}
                 fullWidth
