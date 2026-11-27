@@ -1,0 +1,9 @@
+node_modules/
+build/
+dist/
+coverage/
+.opex-data/
+.DS_Store
+*.log
+.env*
+!.env.example
