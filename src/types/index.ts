@@ -210,37 +210,30 @@ export const TASK_CATEGORIES: string[] = [
 ];
 
 export const DEPARTMENTS: string[] = [
-  'Operations Control',
-  'Plant Logistics',
-  'Quality Assurance',
-  'Facility Fleet',
-  'Supply Chain',
-  'Safety & Compliance',
-];
+  'Operational Exellence (OpEx)',
+  ];
 
 export const AREAS: string[] = [
   'Region West',
   'Region Central',
   'Region East',
-  'Metro North',
-  'Metro South',
 ];
 
 export const BRANCHES: string[] = [
-  'North Hub Branch',
-  'West Logistics Branch',
-  'Central Metro Branch',
-  'East Coast Branch',
-  'South Retail Branch',
+  'MBL',
+  'MGM',
 ];
 
 export const OUTLETS: string[] = [
-  'Outlet 01 - Flagship Plaza',
-  'Outlet 04 - Harbor Bay',
-  'Outlet 07 - Midtown Station',
-  'Outlet 12 - Airport Terminal',
-  'Warehouse Bay A',
-  'Cold Storage Bay B',
+  'MBS',
+  'MBU',
+  'MBM',
+  'MBP',
+  'MBB',
+  'SIF-MA',
+  'SIF-CIK',
+  'MTI-MANADO',
+  'MGM',
 ];
 
 export const SLA_HOURS_BY_PRIORITY: Record<TaskPriority, number> = {
